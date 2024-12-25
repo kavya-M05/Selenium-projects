@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="nameofbroswer" value="firefox"/>
+    <classes>
+      <class name="MavenProject.Maven001.TestCase2_Login_Sort_Logout">
+        <methods>
+          <include name="Login_search_sort_logout"/>
+          <include name="lunch_browser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- MavenProject.Maven001.TestCase2_Login_Sort_Logout -->
+      <class name="MavenProject.Maven001.TestCase1_Login_to_Cart">
+        <methods>
+          <include name="login_to_amazon_till_cart"/>
+          <include name="lunch_browser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- MavenProject.Maven001.TestCase1_Login_to_Cart -->
+      <class name="MavenProject.Maven001.Testcase3_Login_To_Payments">
+        <methods>
+          <include name="lunch_browser"/>
+          <include name="Login_search_cart_payment"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- MavenProject.Maven001.Testcase3_Login_To_Payments -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <parameter name="nameofbroswer" value="chrome"/>
+    <classes>
+      <class name="MavenProject.Maven001.TestCase2_Login_Sort_Logout">
+        <methods>
+          <include name="Login_search_sort_logout"/>
+          <include name="lunch_browser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- MavenProject.Maven001.TestCase2_Login_Sort_Logout -->
+      <class name="MavenProject.Maven001.TestCase1_Login_to_Cart">
+        <methods>
+          <include name="login_to_amazon_till_cart"/>
+          <include name="lunch_browser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- MavenProject.Maven001.TestCase1_Login_to_Cart -->
+      <class name="MavenProject.Maven001.Testcase3_Login_To_Payments">
+        <methods>
+          <include name="lunch_browser"/>
+          <include name="Login_search_cart_payment"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- MavenProject.Maven001.Testcase3_Login_To_Payments -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="nameofbroswer" value="edge"/>
+    <classes>
+      <class name="MavenProject.Maven001.TestCase2_Login_Sort_Logout">
+        <methods>
+          <include name="Login_search_sort_logout"/>
+          <include name="lunch_browser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- MavenProject.Maven001.TestCase2_Login_Sort_Logout -->
+      <class name="MavenProject.Maven001.TestCase1_Login_to_Cart">
+        <methods>
+          <include name="login_to_amazon_till_cart"/>
+          <include name="lunch_browser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- MavenProject.Maven001.TestCase1_Login_to_Cart -->
+      <class name="MavenProject.Maven001.Testcase3_Login_To_Payments">
+        <methods>
+          <include name="lunch_browser"/>
+          <include name="Login_search_cart_payment"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- MavenProject.Maven001.Testcase3_Login_To_Payments -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
